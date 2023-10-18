@@ -28,7 +28,7 @@ jobs:
         java-version: '11'
         
     - name: build the code
-      run: mvn clean package
+      run: mvn clean install
       
     - name: run unit test 
       run: mvn test
